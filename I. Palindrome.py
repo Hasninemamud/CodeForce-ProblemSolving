@@ -1,8 +1,6 @@
-n = str(input())
-rev = n[::-1]
-rmv_zero = rev.lstrip('0')
-print(rmv_zero)
-if n == rmv_zero:
-    print("Yes")
+S = input()
+rev = S[::-1]
+if S == rev:
+    print('YES')
 else:
-    print('No')
+    print("NO")
